@@ -1,13 +1,30 @@
 # Dangdang_Spider
 
 ## 原架构和运行
-项目架构
 
 windows系统默认终端：
 
 ```powershell
 scrapy crawl ddts
 ```
+
+### 项目结构
+
+Dangdang_Spider
+│  └─ scrapy_dangdang_tushu
+│     ├─ scrapy.cfg
+│     └─ scrapy_dangdang_tushu
+│        ├─ items.py
+│        ├─ middlewares.py
+│        ├─ pipelines.py
+│        ├─ RedisCacheMiddleware.py
+│        ├─ settings.py
+│        ├─ spiders
+│        │  ├─ books
+│        │  ├─ ddts.py
+│        │  └─ __init__.py
+│        └─ __init__.py
+
 
 ### 功能说明
 
