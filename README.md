@@ -9,7 +9,7 @@ scrapy crawl ddts
 ```
 
 ### 项目结构
-
+```
 Dangdang_Spider
 │  └─ scrapy_dangdang_tushu
 │     ├─ scrapy.cfg
@@ -24,7 +24,7 @@ Dangdang_Spider
 │        │  ├─ ddts.py
 │        │  └─ __init__.py
 │        └─ __init__.py
-
+```
 
 ### 功能说明
 
